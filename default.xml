@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote
+        name="github"
+        fetch="https://github.com/ulagamistral/" />
+
+    <default
+        remote="github"
+        revision="main" />
+
+    <project
+        name="repo-demo-app"
+        path="applications/app" />
+
+    <project
+        name="repo-demo-common"
+        path="common/common" />
+
+</manifest>
